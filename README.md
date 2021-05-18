@@ -47,6 +47,8 @@ Este payload lo que hace es configurar una bind shell que se ejecutará cada vez
   
   Probablemente os pida aceptar una opción del firewall al finalizar el proceso. 
   
+  Editar en el payload la contraseña, dominio y usuario del server ftp.
+  
 
 
 #### COMANDOS EN POWERSHELL:
